@@ -1,2 +1,3 @@
-# Restplatzbörse Coding Challenge
-## Klaus Mistlberger
+# Restplatzbörse
+## Frontend Coding Challenge
+### Klaus Mistlberger
