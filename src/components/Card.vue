@@ -52,7 +52,6 @@ document.querySelectorAll('.card--a').forEach((el) => {
 .card--container {
   width: 285px;
   height: 220px;
-
   box-shadow: -2px 2px var(--yellow);
   border-radius: var(--radius);
 }
@@ -76,11 +75,11 @@ document.querySelectorAll('.card--a').forEach((el) => {
   display: flex;
   align-items: baseline;
   gap: 3px;
-  margin: 0 0.8rem;
+  margin: 0 16px;
 }
 
 .card--info > * {
-  margin: 0.6rem 0;
+  margin: 12px 0;
   color: var(--magenta);
 }
 
@@ -97,10 +96,7 @@ document.querySelectorAll('.card--a').forEach((el) => {
   font-weight: 600;
 }
 
-/* .card--info-unit {
-} */
-
 .legend {
-  font-size: 0.75rem;
+  font-size: 12px;
 }
 </style>

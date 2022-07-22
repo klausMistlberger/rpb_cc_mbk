@@ -9,14 +9,19 @@ const props = defineProps({
 <template>
   <section role="region">
     <div class="slider--nav">
-      <a href="#" role="link" class="slider--theme"><h2>Zootiere</h2></a>
+      <a 
+        href="#" 
+        role="link" 
+        class="slider--theme"
+        ><h2>Zootiere</h2>
+      </a>
       <a
         href="https://www.restplatzboerse.at/"
         target="_blank"
         class="slider--all"
         role="link"
-        >Alle</a
-      >
+        >Alle
+      </a>
     </div>
     <h3 aria-labelledby="">Zufällige Auswahl an Zootieren</h3>
 
@@ -36,7 +41,7 @@ const props = defineProps({
 
 <style scoped>
 section {
-  margin: 1em;
+  margin: 16px;
   position: relative;
 }
 
@@ -73,11 +78,10 @@ h3 {
 }
 
 ul {
-  padding: 1em 0;
+  padding: 16px 0;
   display: flex;
   flex-wrap: nowrap;
   gap: 16px;
-
   overflow-x: scroll;
   overflow-y: hidden;
   scrollbar-width: none;
@@ -89,13 +93,12 @@ ul::-webkit-scrollbar {
 
 li {
   list-style: none;
-  /* flex: 1 1 16rem; */
 }
 
 .overlay {
   position: absolute;
-  margin: 1em 0;
-  height: calc(100% - 2em + 2px);
+  margin: 16px 0;
+  height: calc(100% - 30px);
   width: 23px;
   top: 0;
   right: 0;

@@ -13,7 +13,6 @@
   justify-content: space-between;
   width: 100vw;
   height: 80px;
-
   margin: 0 auto;
   box-shadow: 0 2px 6px 2px #ccc;
 }
